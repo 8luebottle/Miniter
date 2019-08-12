@@ -1,0 +1,38 @@
+.banner{
+  width: 275px;
+  position: fixed;
+  flex-shrink: 0;
+  margin-left: 0px;
+}
+
+.basicLayout {
+  border: 0 solid black;
+  position: relative;
+  align-items: stretch;
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-basis: auto;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  padding: 0px 0px;
+  z-index: 0;
+  flex-basis: auto;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+}
+
+.main {
+  background-color: rgba(0, 0, 0, 0);
+  flex-grow: 1;
+  -webkit-box-flex: 1;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  /* -webkit-flex-basis: auto;
+  -webkit-flex-direction: column; */
+  -webkit-felx-shrink: 0;
+  box-sizing: border-box;
+  margin-top: 0px;
+  min-height: 0px;
+  min-width: 0px;
+}

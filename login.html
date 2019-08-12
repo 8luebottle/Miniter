@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Log in on Twitter</title>
+  <link rel="icon" type="iamge/png" href="tobe/twitterLogo.png">
+  <link rel="stylesheet" href="./style/common.css" type="text/css">
+  <link rel="stylesheet" href="./style/login.css" type="text/css">
+</head>
+<body>
+  <div class="pageOuter">
+    <div class="pageContainer Appcontainer wrapper">
+      <div class="topContainer">
+        <div class="menuContainer">
+          <ul class="innerContainer navigation">
+            <li class="navHome" data-global-action="home" href="./home.html">
+              <!-- link to HOME -->
+              <a class="" data-placement="bottom">
+                <span class="Icon">bird</span>
+                <span class="home">Home</span>
+              </a>
+            </li>
+            <li class="navAbout">
+              <a class="" >
+                <span class="About">About</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="rightMenu rightAllign">
+          <div class="dropdownMenu">
+            <a href="#" class="dropdownToggle" role="button">
+              <small>language:</small>   
+              <span class="currentLang">English</span>
+              <b class="caret">▾</b>
+            </a>
+          </div>
+        </div>
+      </div>
+    <div class="page-canvas">
+        <div class="signinWrapper" data-login-message>
+            <h1>Log in to Twitter</h1>
+            <form action="#" class="inputForm" method="post">
+              <legend class="visuallyHidden">
+                <!-- Log in -->
+              </legend>
+              <div class="field"> <!-- naming Again -->
+                <input class="userName userEmail userPhone signinForm" type="text" autocomplete="on" placeholder="Phone, meail or username">
+              </div>
+              <div class="field">
+                <input class="userPassword signinForm" type="password" name="session[password]" autocomplete="on" placeholder="Password">
+                <!-- after -->
+              </div>
+            </form>
+            <div class="loginLine">
+              <button type="submit" class="loginButton buttons button--pri">Log in</button>
+              <div class="rememberChecker">
+                <label class="txtLabel rememberLabel"></label>
+                <div class="signInBottom">
+                    <input type="checkbox" value="1" name="rememberUser" checked="checked">
+                    Remember me
+                    <span class="seperator">・</span>
+                    <a class="forgot" href="#" rel="noopener">Forgot password?</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sms mobile">
+              <p clas="signupHelper">New to Twitter?
+                <a id="login-signup-link" href="#">Sign up now »</a> <!-- link to sign up section -->
+              </p> 
+              <p class="smsHelper">Already using Twitter via text message?
+                <a href="#">Activate your account »</a>
+              </p>
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

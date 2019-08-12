@@ -1,0 +1,184 @@
+h1 {
+  font-size: 24px;
+  line-height: .8;
+  padding: 40px 0 20px 0;
+  clear: both;
+}
+
+/* .pageContainer {
+
+} */
+
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.navigation {
+  text-align: left;
+}
+
+.AppContainter {
+  padding: 56px 14px 15px;
+  position: relative;
+}
+.wrapper {
+  margin: 0 auto;
+  min-height: 0;
+  padding: 56px 23px 15px;
+  position: relative;
+  width: 890px;
+}
+
+.innerContainer>li>a {
+  color: #66757f;
+  /* display: block; */
+  font-size: 13px;
+  font-weight: bold;
+  height: 46px;
+  line-height: 1;
+  padding: 0 14px 0 4px;
+  position: relative;
+}
+
+.body { 
+  background : #e6ecf0;
+  color: #14171a;
+  line-height : 20px;
+  position: relative;
+}
+
+.topContainer {
+  backface-visibility: hidden;
+  background-color: white;
+  border-bottom: 1px solid #e6ecf0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+.menuContainer {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  height: 46px;
+  position: relative;
+  width : auto;
+  max-width: 865px;
+  min-width: 590px;
+  padding: 0;
+  text-align: center;
+}
+
+.rightMenu {
+  align-items: center;
+  margin-right: 30px;
+  display: inline-flex;
+  height: 100%;
+}
+
+.field{
+  margin-bottom: 15px;
+  /* width: 97%;
+  max-width: 280px; */
+}
+.page-canvas{
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: auto;
+  max-width: 835px;
+  border: 1px solid #e6ecf0;
+  border: 1px solid rgba(209, 56, 56, 0.1);
+  background-color: #fff;
+  background-clip: padding-box;
+  position: relative;
+}
+.signinWrapper {
+  display: block;
+  width: 97% ;
+  max-width: 585px;
+  clear: both;
+  margin: 0 auto 10px;
+  padding: 0 3%;
+}
+
+.signinForm {
+  font-size: 14px;
+  line-height: 22px;
+  width: 210px;
+}
+
+.rightAllign {
+  float: right;
+  text-align: left;
+  display: inline-flex;
+}
+
+.txtLabel {
+  display: block;
+  margin-bottom: 5px;
+  color: #14171a;
+  cursor: pointer;
+}
+
+.rememberChecker {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.rememberLabel { 
+  margin-left: 12px;
+  text-align: left;
+  color: #14171a;
+  line-height: 30px;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 2px;
+  border-style: groove;
+  border-color: threedface;
+  border-image: initial;
+}
+
+input { 
+  margin: 0;
+  font-size: 14px;
+  line-height: normal;
+}
+
+input, textarea{
+  transition: background .2 linear;
+  display: inline-block;
+  /* width: 210px; */
+  padding: 4px;
+  margin: 0;
+  outline: 0;
+  background-color: #fff;
+  border: 1px solid #e6ecf0;
+  border-radius: 3px;
+}
+
+.mobile {
+  width: auto;
+  padding: 20px 150px;
+  background-color: #f5f8fa;
+  font-size: 14px;
+  line-height: 20px;
+  color: #657786;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}

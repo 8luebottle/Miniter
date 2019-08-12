@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #1da1f2;
+}
+
+html {
+  font-family: san-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  text-rendering: optimizeLegibility;
+}
+
+ul{
+  list-style-type: none;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+div { 
+  display: block;
+}
+
+body { 
+  background: #e6ecf0;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  overflow-y : scroll; 
+  line-height: 20px;
+}
+
+a{
+  text-decoration: none;
+  background: transparent;
+}
+
+.buttons{
+  font-weight: bold;
+  border-radius: 100px;
+  box-shadow: none;
+  position: relative;
+  padding: 6px 16px;
+  text-align: center;
+  line-height: 20px;
+  box-shadow: none;
+  white-space: nowrap;
+  overflow: visible;
+}
+
+.button--pri{
+  background-color: var(--main-color);
+  color: #fff;
+  border: 1px solid var(--main-color);
+}
